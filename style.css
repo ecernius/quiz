@@ -1,0 +1,97 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    body {
+        background: url(https://images.unsplash.com/photo-1620342217727-32395770ea17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 250px;
+    }
+    
+    #startQuiz {
+        margin-top: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: none;
+        color: white;
+        background-color: darkblue;
+        font-size: 1.5em;
+        transition: 0.5s;
+    }
+    
+    #startQuiz:hover {
+        background-color: lightseagreen;
+        cursor: pointer;
+        animation: mymove 3s linear;
+    }
+    
+    @keyframes mymove {
+        50% {
+            transform: rotate(360deg);
+        }
+        90% {
+            transform: scale(1.5);
+        }
+        100% {
+            transform: scale(1.0);
+        }
+    }
+    
+    h1 {
+        color: yellow;
+        font-size: 4em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        color: orange;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .buttons {
+        margin-top: 20px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    footer {
+        margin-top: 20px;
+    }
+    
+    .btn {
+        padding: 20px;
+        border: none;
+        margin-right: 20px;
+        border-radius: 8px;
+        font-size: 1em;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+    }
+    
+    .btn:hover {
+        background-color: gray;
+        color: black;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    
+    #last {
+        width: 200px;
+        height: 70px;
+        margin-left: 15%;
+        background-color: brown;
+        border-radius: 16px;
+    }
